@@ -1,0 +1,36 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>👋 Halo, Saya Mas Wahyu</h1>
+			<p>
+				Founder <strong>Qawwa Technology Indonesia</strong> — membantu bisnis UKM di Indonesia 
+				bertransformasi dengan AI & automation.
+			</p>
+			<p>
+				Di blog ini saya berbagi pengalaman, praktik, dan wawasan tentang:
+			</p>
+			<ul>
+				<li>Digital Marketing untuk UKM</li>
+				<li>AI & Automation Solutions</li>
+				<li>Strategi Bisnis Digital</li>
+				<li>Cerita Sukses Klien</li>
+			</ul>
+			<p>
+				Punya pertanyaan atau butuh bantuan? Hubungi via Telegram atau email.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
