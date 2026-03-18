@@ -165,10 +165,9 @@ Tidak perlu skill programming atau teknis mendalam. OpenClaw didesain user-frien
 **Mas Wahyu** adalah founder Qawwa Technology Indonesia, startup teknologi yang fokus membantu UKM Indonesia bertransformasi digital melalui AI dan automation. Dengan pengalaman lebih dari 10 tahun di industri teknologi, ia berdedikasi untuk membuat solusi enterprise accessible bagi bisnis dari semua skala.
 
 **Follow Mas Wahyu untuk tips AI, automation, dan digital marketing untuk UKM:**
-- 📸 Instagram: [@maswahyu](https://instagram.com/maswahyu)
-- 🐦 Twitter/X: [@maswahyu_id](https://twitter.com/maswahyu_id)
-- 💼 LinkedIn: [Mas Wahyu](https://linkedin.com/in/maswahyu)
-- 📱 Telegram: [@maswahyu](https://t.me/maswahyu)
+- 🧵 Threads: [@maswahyu.me](https://www.threads.com/@maswahyu.me)
+- 💼 LinkedIn: [Wahyu Widagdo Purnomo](https://www.linkedin.com/in/wahyu-widagdo-purnomo)
+- 🌐 Website: [maswahyu.eu.org](https://maswahyu.eu.org)
 
 ---
 
