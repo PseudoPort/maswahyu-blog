@@ -2,7 +2,7 @@
 title: 'OpenClaw Indonesia: AI Assistant yang Meningkatkan Produktivitas Bisnis UKM'
 description: 'Temukan bagaimana AI assistant bisnis Indonesia seperti OpenClaw membantu UKM menghemat waktu, mengurangi biaya operasional, dan meningkatkan produktivitas secara signifikan.'
 pubDate: 2026-03-18
-heroImage: ../../assets/blog-hero.jpg
+heroImage: ../../assets/hero-openclaw.jpg
 ---
 
 # OpenClaw Indonesia: AI Assistant yang Meningkatkan Produktivitas Bisnis UKM

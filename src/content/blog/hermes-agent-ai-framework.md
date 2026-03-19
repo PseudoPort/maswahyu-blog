@@ -2,7 +2,7 @@
 title: 'Hermes Agent Indonesia: AI Agent Framework untuk Otomatisasi Bisnis Modern'
 description: 'Pelajari cara Hermes Agent membantu bisnis Indonesia membangun AI assistant otomatis. Framework ini memudahkan developer membuat automation agent tanpa ribet.'
 pubDate: 2026-03-19
-heroImage: ../../assets/blog-hero.jpg
+heroImage: ../../assets/hero-hermes.jpg
 ---
 
 # Hermes Agent Indonesia: AI Agent Framework untuk Otomatisasi Bisnis Modern
