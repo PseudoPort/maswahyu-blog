@@ -2,7 +2,7 @@
 title: 'Kenapa UKM Indonesia Wajib Punya AI Assistant di 2026 (Bukan Pilihan Lagi)'
 description: 'Ukuran usaha bukan halangan untuk pakai AI. Temukan 5 alasan kenapa AI assistant jadi game changer untuk UKM Indonesia di 2026 dan cara mulainya.'
 pubDate: 2026-03-19
-heroImage: ../../assets/hero-ukm-ai-assistant.jpg
+heroImage: ../../assets/hero-ukm-2026-final.jpg
 ---
 
 # Kenapa UKM Indonesia Wajib Punya AI Assistant di 2026 (Bukan Pilihan Lagi)

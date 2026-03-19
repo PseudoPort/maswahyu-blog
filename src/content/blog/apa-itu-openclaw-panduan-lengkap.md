@@ -2,7 +2,7 @@
 title: 'Apa itu OpenClaw? Panduan Lengkap AI Assistant untuk Pemula di Indonesia'
 description: 'Kenali OpenClaw, AI assistant yang membantu UKM Indonesia otomatisasi pekerjaan. Cocok untuk pemula. Pelajari fitur dan cara mulai pakainya.'
 pubDate: 2026-03-19
-heroImage: ../../assets/hero-apa-itu-openclaw-v2.jpg
+heroImage: ../../assets/hero-openclaw-panduan-final.jpg
 ---
 
 ## Punya Bisnis Kecil, Tapi Tugas Numpuk Sampai Malam?
