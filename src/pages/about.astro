@@ -1,47 +1,135 @@
 ---
-import Layout from '../layouts/BlogPost.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
 ---
 
-<Layout
-	title="About Me"
-	description="Tentang Mas Wahyu - Founder Qawwa Technology Indonesia"
-	pubDate={new Date('January 01 2026')}
->
-	<h1>Tentang Saya</h1>
-	
-	<p>
-		Halo! Saya <strong>Mas Wahyu</strong>, founder <strong>Qawwa Technology Indonesia</strong>.
-	</p>
+<!doctype html>
+<html lang="id">
+	<head>
+		<BaseHead title="About - {SITE_TITLE}" description="Tentang Mas Wahyu - Founder Qawwa Technology Indonesia" />
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+				background: linear-gradient(135deg, #fffbf5 0%, #fff5eb 100%);
+				color: #1a1a1a;
+				font-size: 18px;
+				line-height: 1.7;
+				-webkit-font-smoothing: antialiased;
+			}
+			main {
+				max-width: 720px;
+				margin: 0 auto;
+				padding: 2rem 1.5rem;
+			}
+			h1 {
+				font-size: 2rem;
+				font-weight: 700;
+				margin: 0 0 1.5rem;
+				color: #1a1a1a;
+			}
+			h2 {
+				font-size: 1.35rem;
+				font-weight: 600;
+				margin: 2rem 0 1rem;
+				color: #1a1a1a;
+			}
+			p {
+				margin: 0 0 1rem;
+				color: #444;
+			}
+			ul {
+				margin: 0 0 1.5rem;
+				padding-left: 1.5rem;
+			}
+			li {
+				margin-bottom: 0.5rem;
+				color: #444;
+			}
+			a {
+				color: #ea580c;
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			.contact-list {
+				list-style: none;
+				padding: 0;
+				margin: 1rem 0;
+			}
+			.contact-list li {
+				display: flex;
+				align-items: center;
+				gap: 0.5rem;
+				margin-bottom: 0.75rem;
+			}
+			.contact-list .emoji {
+				font-size: 1.25rem;
+			}
+			
+			/* Mobile */
+			@media (max-width: 640px) {
+				main {
+					padding: 1.5rem 1rem;
+				}
+				h1 {
+					font-size: 1.75rem;
+				}
+				h2 {
+					font-size: 1.2rem;
+				}
+				body {
+					font-size: 16px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Tentang Saya</h1>
+			
+			<p>
+				Halo! Saya <strong>Mas Wahyu</strong>, founder <strong>Qawwa Technology Indonesia</strong>.
+			</p>
 
-	<p>
-		Qawwa adalah perusahaan teknologi yang fokus membantu bisnis UKM
-		di Indonesia untuk bertransformasi digital dengan solusi AI & automation.
-	</p>
+			<p>
+				Qawwa adalah perusahaan teknologi yang fokus membantu bisnis UKM
+				di Indonesia untuk bertransformasi digital dengan solusi AI & automation.
+			</p>
 
-	<p>
-		Saya percaya bahwa teknologi seharusnya membantu bisnis, bukan menyulitkan.
-		Karenanya, semua solusi yang saya bangun dirancang agar mudah digunakan
-		dan memberikan dampak nyata.
-	</p>
+			<p>
+				Saya percaya bahwa teknologi seharusnya membantu bisnis, bukan menyulitkan.
+				Karenanya, semua solusi yang saya bangun dirancang agar mudah digunakan
+				dan memberikan dampak nyata.
+			</p>
 
-	<h2>Apa yang Saya Lakukan</h2>
-	<ul>
-		<li>Digital Marketing Strategy</li>
-		<li>AI & Automation Solutions</li>
-		<li>Business Digital Transformation Consulting</li>
-		<li>Technology Training untuk UKM</li>
-	</ul>
+			<h2>Apa yang Saya Lakukan</h2>
+			<ul>
+				<li>Digital Marketing Strategy</li>
+				<li>AI & Automation Solutions</li>
+				<li>Business Digital Transformation Consulting</li>
+				<li>Technology Training untuk UKM</li>
+			</ul>
 
-	<h2>Visi</h2>
-	<p>
-		Membantu 100.000 bisnis di Indonesia mencapai potensi penuh mereka
-		melalui teknologi digital pada tahun 2030.
-	</p>
+			<h2>Visi</h2>
+			<p>
+				Membantu 100.000 bisnis di Indonesia mencapai potensi penuh mereka
+				melalui teknologi digital pada tahun 2030.
+			</p>
 
-	<h2>Hubungi Saya</h2>
-	<ul>
-		<li>🧵 Threads: <a href="https://www.threads.com/@maswahyu.me">@maswahyu.me</a></li>
-		<li>💼 LinkedIn: <a href="https://www.linkedin.com/in/wahyu-widagdo-purnomo">Wahyu Widagdo Purnomo</a></li>
-		<li>🌐 Website: <a href="https://maswahyu.eu.org">maswahyu.eu.org</a></li>
-	</ul>
-</Layout>
+			<h2>Hubungi Saya</h2>
+			<ul class="contact-list">
+				<li><span class="emoji">🧵</span> <a href="https://www.threads.com/@maswahyu.me">Threads: @maswahyu.me</a></li>
+				<li><span class="emoji">💼</span> <a href="https://www.linkedin.com/in/wahyu-widagdo-purnomo">LinkedIn: Wahyu Widagdo Purnomo</a></li>
+				<li><span class="emoji">🌐</span> <a href="https://maswahyu.eu.org">Website: maswahyu.eu.org</a></li>
+			</ul>
+		</main>
+		<Footer />
+	</body>
+</html>
