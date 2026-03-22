@@ -1,0 +1,9 @@
+Commit dan push artikel baru ke GitHub repo.
+
+Instruksi:
+- Buka direktori ~/.hermes/workspace/maswahyu-blog/
+- Cek perubahan dengan git status
+- Tambahkan semua file baru dan yang dimodifikasi dengan git add .
+- Buat commit dengan pesan: "Auto-publish artikel baru [tanggal]"
+- Push ke remote origin dengan git push origin main
+- Kirim notifikasi ke Telegram 544021880 dengan status commit dan link repo

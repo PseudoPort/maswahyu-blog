@@ -1,0 +1,41 @@
+TUGAS: Generate 1 artikel blog baru untuk maswahyu-blog.
+
+INSTRUKSI DETAIL:
+1. Buka file ~/.hermes/workspace/maswahyu-blog/.hermes.md untuk memahami konteks blog.
+2. Baca 2-3 artikel existing di ~/.hermes/workspace/maswahyu-blog/src/content/blog/ untuk memahami tone dan format.
+3. Pilih topik dari daftar berikut (rotasi, jangan ulangi topik minggu ini):
+   - OpenClaw: Fitur, instalasi, use case, perbandingan
+   - Hermes Agent: Framework, automation, integrasi
+   - AI untuk UKM: Strategi, tools, studi kasus
+   - Digital Marketing: SEO, social media, content marketing
+   - Automation: Workflow, tools, produktivitas
+
+4. Format frontmatter (WAJIB):
+   ---
+   title: 'Judul artikel (60-70 karakter, include keyword utama)'
+   description: 'Meta description 150-160 karakter, engaging'
+   pubDate: [tanggal hari ini format YYYY-MM-DD]
+   heroImage: ../../assets/hero-[slug].jpg
+   ---
+
+5. Konten artikel:
+   - Panjang: 800-1200 kata
+   - Tone: Professional tapi approachable, no BS (sesuai .hermes.md)
+   - Bahasa: Indonesia
+   - Struktur: H1 (judul), pendahuluan engaging, 3-4 H2 sections, bullet points, CTA di akhir
+   - Include internal links ke artikel lain jika relevan
+   - SEO-friendly: keyword density 1-2%, LSI keywords
+
+6. Simpan file ke: ~/.hermes/workspace/maswahyu-blog/src/content/blog/[slug].md
+   Slug format: judul-dengan-hifen-contoh.md
+
+7. Generate hero image dengan command:
+   python3 /home/wahyu/.hermes/skills/media/runware-image/scripts/generate.py "[prompt untuk hero image sesuai style guide di .hermes.md]"
+
+8. Kirim notifikasi ke Telegram (chat_id: 544021880) dengan format:
+   ✅ Artikel baru berhasil dibuat!
+   📝 Judul: [judul]
+   📁 File: [nama file]
+   🔗 Topik: [topik]
+
+PENTING: Jangan overwrite artikel yang sudah ada. Cek tanggal di filename untuk menghindari duplikasi.
