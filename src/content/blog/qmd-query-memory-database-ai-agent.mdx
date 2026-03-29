@@ -49,7 +49,7 @@ graph TB
 
 Setelah mencoba beberapa pendekatan, saya pilih **Opsi B: Split Responsibility**:
 
-- **Hot Tier** (platform auto-inject): Core identity saja (<500 chars). Nama, role, timezone, key principles.
+- **Hot Tier** (platform auto-inject): Core identity saja (kurang dari 500 chars). Nama, role, timezone, key principles.
 - **Warm/Deep Tier** (on-demand query): Semua knowledge lain — project config, tool settings, lessons learned, workflow rules.
 
 Platform meng-inject Hot Tier secara otomatis ke setiap pesan (gratis). Warm dan Deep di-query hanya saat relevan.
@@ -215,7 +215,7 @@ Platform inject Hot Tier (177 + 225 = 402 chars, gratis)
     ↓
 qmd_context.py "<pesan>" → Query Warm + Deep
     ↓
-Merge context relevan (<1500 chars)
+Merge context relevan (maks 1500 chars)
     ↓
 AI merespons
     ↓
@@ -250,7 +250,7 @@ Detail per grup:
 **Hot Tier (TC01-TC03)**
 - Core identity tersedia via query ✅
 - User profile tersedia via query ✅
-- Budget <500 chars per record ✅ (177 + 225 chars)
+- Budget maks 500 chars per record ✅ (177 + 225 chars)
 
 **Warm/Deep Tier (TC04-TC09)**
 - Blog project context ditemukan via keyword search ✅
@@ -273,7 +273,7 @@ Detail per grup:
 - Second store (same content): SKIP (duplicate) ✅
 
 **Context Format (TC17-TC18)**
-- Output <1500 chars ✅ (actual: 388 chars avg)
+- Output maks 1500 chars ✅ (actual: 388 chars avg)
 - Hot tier tidak di-include dalam context output ✅
 
 **E2E Workflow (TC19-TC20)**
