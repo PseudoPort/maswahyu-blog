@@ -1,5 +1,5 @@
 ---
-title: AI Agent untuk UKM Indonesia: Kenapa Kamu Tidak Perlu Tim IT Besar di 2026
+title: "AI Agent untuk UKM Indonesia: Kenapa Kamu Tidak Perlu Tim IT Besar di 2026"
 description: Temukan bagaimana AI Agent seperti Hermes dan OpenClaw bisa mengotomatiskan 70% pekerjaan operasional UKM tanpa biaya besar atau tim teknis yang banyak.
 pubDate: 2026-04-05
 heroImage: /hero-ai-agent-ukm.jpg
