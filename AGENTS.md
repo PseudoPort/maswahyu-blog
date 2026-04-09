@@ -30,6 +30,15 @@ Personal branding blog by Mas Wahyu (Qawwa Technology Indonesia).
 - npm run build — Production build
 - npm run preview — Preview production build
 
+## Build & Deploy Rules (CRITICAL)
+
+**ALWAYS verify build passes locally BEFORE pushing:**
+1. Run `npm run build`
+2. Confirm output shows `✓ Completed` and `Complete!` (0 errors)
+3. Only then: `git add -A && git commit && git push`
+
+**Never push without local build verification.** Cloudflare Pages build will fail otherwise.
+
 ## File Structure
 
 - src/content/blog/ — Blog posts (Markdown)
