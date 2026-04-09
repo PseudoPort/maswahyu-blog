@@ -2,7 +2,7 @@
 title: "Hermes Agent: AI Agent Otonom yang Bisa Kerja 24/7 Untuk Bisnis UKM Kamu"
 description: "Apa itu Hermes Agent, bagaimana cara kerjanya, dan mengapa ini adalah terobosan AI pertama yang benar-benar memberi nilai untuk bisnis kecil dan menengah di Indonesia tanpa biaya mahal."
 pubDate: 2026-04-06
-heroImage: /hero-hermes-agent-ukm.jpg
+heroImage: ../../assets/hero-hermes-agent-ukm.jpg
 ---
 
 # Hermes Agent: AI Agent Otonom yang Bisa Kerja 24/7 Untuk Bisnis UKM Kamu

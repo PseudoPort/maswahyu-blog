@@ -2,7 +2,7 @@
 title: "Revolusi Efisiensi: Mengapa UKM Indonesia Butuh AI Agent Sekarang | Mas Wahyu"
 description: "Temukan bagaimana AI Agent dapat mengotomasi operasional UKM, mengurangi biaya, dan meningkatkan profit tanpa harus jadi ahli tech. Baca selengkapnya!"
 pubDate: 2026-04-07
-heroImage: "/src/assets/hero-ai-agent-untuk-ukm-efisiensi-operasional.jpg"
+heroImage: ../../assets/hero-ai-agent-ukm.jpg
 ---
 
 # Revolusi Efisiensi: Mengapa UKM Indonesia Butuh AI Agent Sekarang | Mas Wahyu

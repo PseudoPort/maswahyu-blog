@@ -2,7 +2,7 @@
 title: Mengapa UKM Indonesia Harus Mulai Menggunakan AI Agent Seperti Hermes Agent Tahun 2026
 description: AI Agent bukan cuma buat perusahaan besar. Pelajari bagaimana UKM di Indonesia bisa meningkatkan produktivitas 3x lipat dengan biaya kurang dari 100 ribu rupiah per bulan.
 pubDate: 2026-04-04
-heroImage: /hero-ai-agent-ukm.jpg
+heroImage: ../../assets/hero-hermes-agent-ukm.jpg
 ---
 
 # Mengapa UKM Indonesia Harus Mulai Menggunakan AI Agent Seperti Hermes Agent Tahun 2026
