@@ -22,7 +22,7 @@ Personal branding blog by Mas Wahyu (Qawwa Technology Indonesia).
 - Colors: warm orange tones, clean background
 - FORBIDDEN: face details, eyes/nose/mouth, realistic, women
 - Negative prompt: "realistic, photorealistic, face details, woman, portrait, eyes, nose, mouth"
-- Generate with: python3 /home/wahyu/.hermes/skills/media/runware-image/scripts/generate.py
+- Generate with: Runware AI direct API call (see `runware-ai` skill). Use Python `requests` to POST to `https://api.runware.ai/v1` with `taskType: imageInference`. Bash scripts at `runware-image/scripts/` do NOT exist.
 
 ## Key Commands
 
