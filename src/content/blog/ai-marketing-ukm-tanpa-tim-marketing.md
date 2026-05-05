@@ -1,8 +1,8 @@
 ---
-title: AI Marketing untuk UKM Tanpa Tim Marketing: Panduan Praktis 2026
-description: Cara UKM Indonesia pakai AI untuk marketing tanpa perlu tim marketing penuh waktu.
-pubDate: 2026-05-05
-heroImage: ../../assets/hero-ai-marketing-ukm.jpg
+title: 'AI Marketing untuk UKM Tanpa Tim Marketing: Panduan Praktis 2026'
+description: 'Cara UKM Indonesia pakai AI untuk marketing tanpa perlu tim marketing penuh waktu.'
+pubDate: '2026-05-05'
+heroImage: '../../assets/hero-ai-marketing-ukm.jpg'
 ---
 
 # AI Marketing untuk UKM Tanpa Tim Marketing: Panduan Praktis 2026
