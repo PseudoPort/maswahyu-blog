@@ -1,0 +1,54 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="id">
+	<head>
+		<BaseHead title="Terms of Service - {SITE_TITLE}" description="Syarat dan Ketentuan penggunaan blog Mas Wahyu." />
+		<style>
+			* { box-sizing: border-box; }
+			body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #fffbf5 0%, #fff5eb 100%); color: #1a1a1a; font-size: 18px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+			main { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+			h1 { font-size: 2rem; font-weight: 700; margin: 0 0 0.25rem; color: #1a1a1a; }
+			.updated { color: #888; font-size: 0.85rem; margin-bottom: 2rem; }
+			h2 { font-size: 1.25rem; font-weight: 600; margin: 2rem 0 0.75rem; color: #1a1a1a; }
+			p, li { color: #444; margin: 0 0 0.75rem; }
+			ul { padding-left: 1.5rem; margin: 0 0 1.5rem; }
+			li { margin-bottom: 0.4rem; }
+			strong { color: #1a1a1a; }
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Terms of Service</h1>
+			<p class="updated">Terakhir diperbarui: Juli 2026</p>
+
+			<h2>1. Penerimaan</h2>
+			<p>Dengan mengakses blog <strong>maswahyu.biz.id</strong>, Anda menyetujui syarat dan ketentuan ini. Jika Anda tidak setuju, mohon tidak menggunakan situs ini.</p>
+
+			<h2>2. Konten</h2>
+			<p>Seluruh konten di blog ini bersifat informatif dan edukatif seputar Digital Marketing, AI, dan Automation untuk UKM Indonesia. Konten disusun berdasarkan pengalaman dan riset pribadi penulis. Meskipun saya berusaha menjaga akurasi, saya tidak menjamin kebenaran atau kelengkapan informasi.</p>
+
+			<h2>3. Hak Kekayaan Intelektual</h2>
+			<p>Seluruh konten (tulisan, gambar, desain) di blog ini adalah milik Mas Wahyu kecuali disebutkan lain. Anda tidak boleh menyalin, mendistribusikan, atau memodifikasi konten tanpa izin tertulis.</p>
+
+			<h2>4. Tautan Eksternal</h2>
+			<p>Blog ini mungkin berisi tautan ke situs pihak ketiga. Saya tidak bertanggung jawab atas konten atau kebijakan privasi situs tersebut.</p>
+
+			<h2>5. Batasan Tanggung Jawab</h2>
+			<p>Blog ini disediakan "sebagaimana adanya". Saya tidak bertanggung jawab atas kerugian yang timbul dari penggunaan informasi di blog ini.</p>
+
+			<h2>6. Perubahan</h2>
+			<p>Saya dapat mengubah syarat dan ketentuan ini sewaktu-waktu. Perubahan akan diumumkan di halaman ini.</p>
+
+			<h2>7. Kontak</h2>
+			<p>Jika ada pertanyaan, hubungi <strong>kangmaswahyu@gmail.com</strong>.</p>
+		</main>
+		<Footer />
+	</body>
+</html>

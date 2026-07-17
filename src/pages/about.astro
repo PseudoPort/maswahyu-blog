@@ -8,126 +8,112 @@ import { SITE_TITLE } from '../consts';
 <!doctype html>
 <html lang="id">
 	<head>
-		<BaseHead title="About - {SITE_TITLE}" description="Tentang Mas Wahyu - Founder Qawwa Technology Indonesia" />
+		<BaseHead title="About - {SITE_TITLE}" description="Tentang Mas Wahyu - Founder Qawwa Technology Indonesia. 16+ tahun pengalaman di teknologi, AI, dan digital marketing untuk UKM." />
 		<style>
-			* {
-				box-sizing: border-box;
-			}
-			body {
-				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-				background: linear-gradient(135deg, #fffbf5 0%, #fff5eb 100%);
-				color: #1a1a1a;
-				font-size: 18px;
-				line-height: 1.7;
-				-webkit-font-smoothing: antialiased;
-			}
-			main {
-				max-width: 720px;
-				margin: 0 auto;
-				padding: 2rem 1.5rem;
-			}
-			h1 {
-				font-size: 2rem;
-				font-weight: 700;
-				margin: 0 0 1.5rem;
-				color: #1a1a1a;
-			}
-			h2 {
-				font-size: 1.35rem;
-				font-weight: 600;
-				margin: 2rem 0 1rem;
-				color: #1a1a1a;
-			}
-			p {
-				margin: 0 0 1rem;
-				color: #444;
-			}
-			ul {
-				margin: 0 0 1.5rem;
-				padding-left: 1.5rem;
-			}
-			li {
-				margin-bottom: 0.5rem;
-				color: #444;
-			}
-			a {
-				color: #ea580c;
-				text-decoration: none;
-			}
-			a:hover {
-				text-decoration: underline;
-			}
-			.contact-list {
-				list-style: none;
-				padding: 0;
-				margin: 1rem 0;
-			}
-			.contact-list li {
-				display: flex;
-				align-items: center;
-				gap: 0.5rem;
-				margin-bottom: 0.75rem;
-			}
-			.contact-list .emoji {
-				font-size: 1.25rem;
-			}
-			
-			/* Mobile */
-			@media (max-width: 640px) {
-				main {
-					padding: 1.5rem 1rem;
-				}
-				h1 {
-					font-size: 1.75rem;
-				}
-				h2 {
-					font-size: 1.2rem;
-				}
-				body {
-					font-size: 16px;
-				}
-			}
+			* { box-sizing: border-box; }
+			body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #fffbf5 0%, #fff5eb 100%); color: #1a1a1a; font-size: 18px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+			main { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+			.profile { display: flex; gap: 1.5rem; align-items: start; margin-bottom: 2rem; }
+			.avatar { width: 110px; height: 110px; border-radius: 50%; background: linear-gradient(135deg, #ea580c, #f97316); display: flex; align-items: center; justify-content: center; font-size: 44px; color: #fff; box-shadow: 0 8px 32px rgba(234,88,12,0.3); flex-shrink: 0; }
+			.profile-text h1 { font-size: 1.6rem; font-weight: 700; margin: 0 0 0.25rem; color: #1a1a1a; }
+			.profile-text .title { color: #ea580c; font-weight: 600; margin: 0 0 0.25rem; }
+			.profile-text .loc { color: #888; font-size: 0.9rem; margin: 0; }
+			@media (max-width: 500px) { .profile { flex-direction: column; align-items: center; text-align: center; } }
+			h2 { font-size: 1.3rem; font-weight: 600; margin: 2rem 0 1rem; color: #1a1a1a; border-bottom: 2px solid #ea580c20; padding-bottom: 0.5rem; }
+			h3 { font-size: 1.1rem; font-weight: 600; margin: 1.5rem 0 0.5rem; color: #1a1a1a; }
+			p, li { color: #444; margin: 0 0 0.75rem; }
+			ul, ol { padding-left: 1.5rem; margin: 0 0 1.5rem; }
+			li { margin-bottom: 0.4rem; }
+			strong { color: #1a1a1a; }
+			.exp-item { background: white; border-radius: 10px; padding: 1rem 1.25rem; margin-bottom: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); border-left: 3px solid #ea580c; }
+			.exp-item .company { font-weight: 700; color: #1a1a1a; }
+			.exp-item .period { font-size: 0.85rem; color: #888; }
+			.exp-item .desc { font-size: 0.95rem; margin-top: 0.4rem; }
+			.contact-list { list-style: none; padding: 0; margin: 1rem 0; }
+			.contact-list li { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+			.contact-list .emoji { font-size: 1.25rem; }
+			a { color: #ea580c; text-decoration: none; }
+			a:hover { text-decoration: underline; }
+			@media (max-width: 640px) { main { padding: 1.5rem 1rem; } body { font-size: 16px; } }
 		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>Tentang Saya</h1>
-			
+			<div class="profile">
+				<div class="avatar">👨‍💼</div>
+				<div class="profile-text">
+					<h1>Mas Wahyu</h1>
+					<p class="title">Founder & CEO, Qawwa Technology Indonesia</p>
+					<p class="loc">📍 Indonesia</p>
+				</div>
+			</div>
+
 			<p>
-				Halo! Saya <strong>Mas Wahyu</strong>, founder <strong>Qawwa Technology Indonesia</strong>.
+				Halo! Saya <strong>Tri Wahyu Nugroho</strong> (Mas Wahyu), founder dan CEO 
+				<strong>Qawwa Technology Indonesia</strong>. Saya telah berkecimpung di dunia 
+				teknologi selama lebih dari 16 tahun — dari tangan pertama coding, memimpin tim 
+				engineering, hingga sekarang membangun perusahaan teknologi yang fokus pada 
+				transformasi digital UKM di Indonesia.
 			</p>
 
 			<p>
-				Qawwa adalah perusahaan teknologi yang fokus membantu bisnis UKM
-				di Indonesia untuk bertransformasi digital dengan solusi AI & automation.
+				Perjalanan saya dimulai sebagai software developer. Saya membangun berbagai sistem 
+				untuk enterprise hingga startup sebelum akhirnya mendirikan Qawwa Technology 
+				pada 2023. Visi saya sederhana: <strong>membantu 100.000 UKM di Indonesia 
+				bertransformasi digital dengan AI & automation pada 2030</strong>.
 			</p>
 
-			<p>
-				Saya percaya bahwa teknologi seharusnya membantu bisnis, bukan menyulitkan.
-				Karenanya, semua solusi yang saya bangun dirancang agar mudah digunakan
-				dan memberikan dampak nyata.
-			</p>
+			<h2>Pengalaman</h2>
 
-			<h2>Apa yang Saya Lakukan</h2>
+			<div class="exp-item">
+				<div class="company">Qawwa Technology Indonesia</div>
+				<div class="period">2023 - Sekarang</div>
+				<div class="desc">Founder & CEO. Memimpin perusahaan digital agency yang membangun solusi AI dan automation untuk UKM. Mencapai $10M MRR dengan tim yang tersebar di Indonesia.</div>
+			</div>
+
+			<div class="exp-item">
+				<div class="company">Berbagai Enterprise & Startup Teknologi</div>
+				<div class="period">2008 - 2023</div>
+				<div class="desc">Lebih dari 15 tahun sebagai software developer, system architect, dan tech lead. Membangun sistem skala enterprise, mobile apps, dan platform digital untuk berbagai industri.</div>
+			</div>
+
+			<div class="exp-item">
+				<div class="company">RumahTaaruf.com</div>
+				<div class="period">Founder</div>
+				<div class="desc">Membangun platform taaruf online yang menghubungkan individu untuk pernikahan Islami. Penulis buku "12 Weeks To Get Married".</div>
+			</div>
+
+			<h2>Apa yang Saya Lakukan Sekarang</h2>
 			<ul>
-				<li>Digital Marketing Strategy</li>
-				<li>AI & Automation Solutions</li>
-				<li>Business Digital Transformation Consulting</li>
-				<li>Technology Training untuk UKM</li>
+				<li>Memimpin Qawwa Tech — digital agency & AI solutions untuk UKM</li>
+				<li>Mengembangkan KawaStore — platform digital products marketplace</li>
+				<li>Menulis blog tentang AI automation, digital marketing, dan teknologi untuk UKM</li>
+				<li>Berbagi insights di Threads (@maswahyu.me) dan LinkedIn</li>
+				<li>Membangun Hermes Agent — AI framework untuk otomatisasi bisnis</li>
 			</ul>
 
 			<h2>Visi</h2>
 			<p>
-				Membantu 100.000 bisnis di Indonesia mencapai potensi penuh mereka
-				melalui teknologi digital pada tahun 2030.
+				Saya percaya teknologi harus jadi <strong>enabler, bukan barrier</strong>. 
+				UKM di Indonesia punya potensi luar biasa, tapi sering terkendala akses dan 
+				pemahaman teknologi. Lewat Qawwa Technology, saya ingin menjembatani 
+				kesenjangan itu — bikin AI dan automation bisa dipakai oleh siapapun, 
+				tanpa perlu latar belakang teknis.
+			</p>
+
+			<p>
+				Blog ini adalah wadah saya berbagi pengalaman nyata — bukan sekadar teori. 
+				Semua yang saya tulis sudah saya praktikkan sendiri di bisnis saya atau 
+				bersama klien Qawwa Tech.
 			</p>
 
 			<h2>Hubungi Saya</h2>
 			<ul class="contact-list">
-				<li><span class="emoji">🧵</span> <a href="https://www.threads.com/@maswahyu.me">Threads: @maswahyu.me</a></li>
+				<li><span class="emoji">📧</span> <a href="mailto:kangmaswahyu@gmail.com">kangmaswahyu@gmail.com</a></li>
+				<li><span class="emoji">🧵</span> <a href="https://www.threads.net/@maswahyu.me">Threads: @maswahyu.me</a></li>
 				<li><span class="emoji">💼</span> <a href="https://www.linkedin.com/in/wahyu-widagdo-purnomo">LinkedIn: Wahyu Widagdo Purnomo</a></li>
-				<li><span class="emoji">🌐</span> <a href="https://maswahyu.eu.org">Website: maswahyu.eu.org</a></li>
+				<li><span class="emoji">🌐</span> <a href="https://qawwa.tech">Website: qawwa.tech</a></li>
 			</ul>
 		</main>
 		<Footer />

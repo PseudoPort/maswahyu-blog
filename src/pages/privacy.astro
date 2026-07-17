@@ -1,0 +1,65 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="id">
+	<head>
+		<BaseHead title="Privacy Policy - {SITE_TITLE}" description="Kebijakan Privasi Mas Wahyu — bagaimana data Anda dikumpulkan, digunakan, dan dilindungi." />
+		<style>
+			* { box-sizing: border-box; }
+			body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #fffbf5 0%, #fff5eb 100%); color: #1a1a1a; font-size: 18px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+			main { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+			h1 { font-size: 2rem; font-weight: 700; margin: 0 0 0.25rem; color: #1a1a1a; }
+			.updated { color: #888; font-size: 0.85rem; margin-bottom: 2rem; }
+			h2 { font-size: 1.25rem; font-weight: 600; margin: 2rem 0 0.75rem; color: #1a1a1a; }
+			p, li { color: #444; margin: 0 0 0.75rem; }
+			ul { padding-left: 1.5rem; margin: 0 0 1.5rem; }
+			li { margin-bottom: 0.4rem; }
+			strong { color: #1a1a1a; }
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Privacy Policy</h1>
+			<p class="updated">Terakhir diperbarui: Juli 2026</p>
+
+			<h2>1. Data yang Dikumpulkan</h2>
+			<p>Saya mengumpulkan data berikut saat Anda mengunjungi blog ini:</p>
+			<ul>
+				<li><strong>Data otomatis:</strong> alamat IP, jenis browser, halaman yang dikunjungi, waktu kunjungan (via Google Analytics / Cloudflare Analytics).</li>
+				<li><strong>Data yang Anda berikan:</strong> nama dan email jika Anda mengirim pesan melalui form kontak atau komentar blog.</li>
+				<li><strong>Cookie:</strong> Blog ini menggunakan cookie dari Google Analytics dan Google AdSense (setelah approved) untuk personalisasi iklan.</li>
+			</ul>
+
+			<h2>2. Penggunaan Data</h2>
+			<p>Data saya gunakan untuk:</p>
+			<ul>
+				<li>Menganalisis traffic dan perilaku pengunjung</li>
+				<li>Memperbaiki kualitas konten blog</li>
+				<li>Menampilkan iklan yang relevan (setelah AdSense aktif)</li>
+				<li>Membalas pertanyaan atau pesan dari Anda</li>
+			</ul>
+
+			<h2>3. Perlindungan Data</h2>
+			<p>Blog ini di-host di Cloudflare Pages dengan enkripsi SSL/TLS. Saya tidak menjual data pribadi Anda ke pihak ketiga. Data hanya dibagikan dengan layanan yang saya gunakan (Cloudflare, Google Analytics, Google AdSense) sesuai kebijakan privasi masing-masing.</p>
+
+			<h2>4. Hak Anda</h2>
+			<p>Anda berhak untuk:</p>
+			<ul>
+				<li>Meminta akses ke data pribadi yang saya simpan</li>
+				<li>Meminta penghapusan data pribadi Anda</li>
+				<li>Menolak pelacakan cookie via pengaturan browser</li>
+			</ul>
+			<p>Untuk permintaan terkait data, hubungi saya di <strong>kangmaswahyu@gmail.com</strong>.</p>
+
+			<h2>5. Perubahan Kebijakan</h2>
+			<p>Kebijakan ini dapat berubah sewaktu-waktu. Perubahan akan diumumkan di halaman ini. Silakan cek secara berkala.</p>
+		</main>
+		<Footer />
+	</body>
+</html>
