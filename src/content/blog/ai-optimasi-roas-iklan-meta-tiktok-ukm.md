@@ -123,7 +123,7 @@ A: Kerasa, asal Anda nggak sebar ke 10 iklan sekaligus. Dengan budget Rp 1–3 j
 
 **Follow Mas Wahyu buat tips AI, automation, dan digital marketing buat UKM:**
 - 🧵 Threads: [@maswahyu.me](https://www.threads.com/@maswahyu.me)
-- 💼 LinkedIn: [Wahyu Widagdo Purnomo](https://www.linkedin.com/wahyu-widagdo-purnomo)
+- 💼 LinkedIn: [Wahyu Widagdo Purnomo](https://www.linkedin.com/in/wahyu-widagdo-purnomo)
 - 🌐 Website: [maswahyu.eu.org](https://maswahyu.eu.org)
 
 ---
