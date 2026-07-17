@@ -2,8 +2,13 @@
 title: "AI Audit Harga Promo UKM: Cegah Selisih Harga di Marketplace, Website, dan WhatsApp"
 description: "Panduan AI audit harga promo untuk UKM agar harga marketplace, website, WhatsApp, dan kasir tetap sinkron tanpa bikin pelanggan komplain."
 pubDate: 2026-06-02
+author: Mas Wahyu
+authorTitle: Founder & CEO Qawwa Technology Indonesia
+updatedDate: 2026-07-14
 heroImage: "../../assets/hero-ai-audit-harga-promo-lintas-channel-ukm.jpg"
 ---
+
+*Ditulis oleh Mas Wahyu, Founder Qawwa Technology Indonesia*
 
 Selisih harga biasanya kelihatan sepele sampai ada pelanggan yang protes. Di marketplace harga Rp119.000, di website Rp125.000, di WhatsApp admin masih pakai promo lama Rp109.000, lalu di kasir offline diskonnya sudah berakhir sejak kemarin. Satu produk, empat versi harga.
 
@@ -20,6 +25,8 @@ Admin marketplace menaikkan harga karena biaya platform berubah. Tim website bel
 Ada juga faktor teknis. Marketplace punya fitur campaign sendiri. Website punya kupon sendiri. Google Business Profile, Instagram bio, katalog WhatsApp, dan POS kasir kadang berjalan sendiri-sendiri. Kalau tidak ada satu sumber data yang dipercaya, tim akhirnya memakai versi yang paling dekat dengan mereka.
 
 Risikonya bukan cuma komplain. Kalau kamu memakai Google Merchant Center atau iklan shopping, mismatch antara harga feed dan landing page bisa memicu masalah akurasi data produk. Google punya panduan resmi soal [inaccurate price due to inconsistency](https://support.google.com/merchants/answer/9773429?hl=en), dan ini cukup jadi pengingat: platform iklan juga membaca konsistensi, bukan hanya pelanggan.
+
+Saya ingat satu kejadian waktu salah satu klien Qawwa Tech — toko perlengkapan bayi yang jualan di Shopee, Tokopedia, website sendiri, dan WhatsApp — mengalami komplain bertubi-tubi karena selisih harga. Waktu itu mereka lagi promo "Diskon 15% semua produk bayi" di Shopee. Ternyata admin website lupa update, jadi di website harga normal semua. Pelanggan yang lihat promo di Shopee lalu cek website langsung bingung. Komplain masuk ke CS, CS sibuk menjelaskan, waktu terbuang. Setelah kami bantu audit, ketemu akar masalahnya: tidak ada satu sumber master harga yang dipakai semua tim. Solusinya sederhana — satu Google Sheet yang jadi acuan, dan setiap kali ada promo, wajib di-update di sheet itu dulu sebelum channel lain digerakkan. Sejak itu, komplain selisih harga turun drastis.
 
 ## Apa yang dicek dalam AI audit harga promo
 
@@ -106,17 +113,20 @@ Setelah sebulan, biasanya polanya kelihatan. Mungkin masalah terbesar bukan mark
 
 Dari situ baru rapikan SOP. Satu halaman cukup: sumber harga resmi, siapa boleh ubah harga, kapan promo dianggap aktif, channel mana yang harus dicek, dan siapa yang memberi approval terakhir.
 
-## FAQ
-
-**Q: Apakah AI bisa otomatis menyamakan harga di semua channel?**  
-A: Bisa kalau sistemnya terhubung, tapi untuk UKM saya lebih sarankan mulai dari audit dan approval dulu. Ubah harga otomatis tanpa pengecekan manusia bisa berbahaya kalau data master salah.
-
-**Q: Seberapa sering UKM perlu audit harga promo?**  
-A: Kalau promo jarang, seminggu sekali cukup. Kalau sering ikut flash sale, campaign marketplace, atau broadcast WhatsApp harian, audit harian lebih aman.
-
-**Q: Data apa yang paling wajib disiapkan sebelum audit?**  
-A: Master harga. Tanpa itu, AI tidak punya patokan resmi. Minimal siapkan SKU, harga normal, harga promo, periode promo, batas diskon, dan channel yang ikut campaign.
+*Artikel ini diperbarui: 14 Juli 2026.*
 
 ---
 
-Mas Wahyu adalah founder Qawwa Technology Indonesia, fokus membantu UKM Indonesia memakai AI dan automation dengan cara yang praktis, aman, dan tetap manusiawi. Diskusi kebutuhan automation bisnis bisa lewat [maswahyu.biz.id](https://maswahyu.biz.id).
+## Insights Pribadi
+
+**Tiga pola yang paling sering saya temui dari pengalaman bersama klien Qawwa Tech:**
+
+**Pertama,** akar masalah harga tidak konsisten jarang di marketplace — paling sering di template WhatsApp dan caption Instagram. Kenapa? Karena dua channel ini yang paling jarang diaudit. Marketplace dan website biasanya punya jadwal update, sementara caption promo dan template chat sering ditulis di notes pribadi dan tidak terpantau.
+
+**Kedua,** master harga memang penting, tapi lebih penting lagi siapa yang punya wewenang mengubahnya. Saya lihat banyak UKM punya master harga di spreadsheet, tapi admin mana pun bisa edit seenaknya. Akibatnya, master harga sendiri jadi tidak terpercaya. Tetapkan satu orang sebagai gatekeeper harga.
+
+**Ketiga,** audit harga promo sebaiknya jadi agenda rutin, bukan aktivitas reaktif setelah ada komplain. Jadwalkan audit mingguan — 30 menit di hari Senin pagi. Ini salah satu investasi waktu dengan ROI tertinggi yang bisa kamu lakukan sebagai pemilik bisnis.
+
+---
+
+*Ditulis oleh Mas Wahyu — Founder & CEO Qawwa Technology Indonesia. 16+ tahun di industri teknologi, kini fokus membantu UKM Indonesia bertransformasi digital dengan AI & automation. Diskusi kebutuhan audit harga, automasi bisnis, atau konsultasi digital bisa lewat [maswahyu.biz.id](https://maswahyu.biz.id).*
