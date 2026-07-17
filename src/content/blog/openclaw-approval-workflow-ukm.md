@@ -111,7 +111,7 @@ Approval nggak harus lambat. Dengan OpenClaw, UKM bisa memproses keputusan bisni
 
 ---
 
-**Masih ragu automasi approval cocok buat bisnis kamu?** Qawwa Tech bisa bantu setup dan konsultasi workflow pertama kamu. [Hubungi kami](https://qawwa.tech) untuk diskusi gratis.
+**Masih ragu automasi approval cocok buat bisnis kamu?** Qawwa Tech bisa bantu setup dan konsultasi workflow pertama kamu. [Hubungi kami](https://maswahyu.eu.org) untuk diskusi gratis.
 
 ## FAQ
 

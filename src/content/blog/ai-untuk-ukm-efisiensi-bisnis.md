@@ -164,7 +164,7 @@ Kalau mau eksplor lebih dalam:
 
 ## Tentang Penulis
 
-Mas Wahyu adalah CEO Qawwa Technology Indonesia, perusahaan yang membangun digital agency dan mobile apps dengan $10M MRR. Fokus membantu UKM Indonesia melakukan transformasi digital melalui AI dan automation. Bisa dihubungi lewat LinkedIn atau email di contact@qawwa.tech.
+Mas Wahyu adalah CEO Qawwa Technology Indonesia, perusahaan yang membangun digital agency dan mobile apps dengan $10M MRR. Fokus membantu UKM Indonesia melakukan transformasi digital melalui AI dan automation. Bisa dihubungi lewat LinkedIn atau email di contact@maswahyu.eu.org.
 
 ---
 
