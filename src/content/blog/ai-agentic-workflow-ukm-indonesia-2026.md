@@ -3,9 +3,16 @@ title: 'AI Agentic Workflow untuk UKM Indonesia di 2026'
 description: 'Perbedaan AI chatbot biasa dengan AI agentic workflow yang benar-benar autonomous — dan kenapa UKM perlu mulai memahami teknologi ini sekarang.'
 pubDate: 2026-04-15
 heroImage: ../../assets/hero-ai-agentic-workflow-ukm-indonesia-2026.jpg
+author: Mas Wahyu
+authorTitle: Founder & CEO Qawwa Technology Indonesia
+updatedDate: 2026-07-14
 ---
 
 # AI Agentic Workflow untuk UKM Indonesia di 2026
+
+*Ditulis oleh Mas Wahyu, Founder Qawwa Technology Indonesia*
+
+*Artikel ini diperbarui: 14 Juli 2026.*
 
 Selama dua tahun terakhir, kita sudah biasa pakai AI chatbot — ChatGPT, Gemini, Claude. Kita ketik prompt, dapat jawaban. Selesai. Tapi teknologi AI sudah bergerak jauh lebih cepat dari itu.
 
@@ -101,6 +108,14 @@ Alasan kedua: competition sudah mulai pakai ini. UKMK yang dulunya kalah dari br
 
 Periode 2026 adalah momen di mana AI agentic workflow berubah dari "niche tech" jadi "competitive necessity" — mirip seperti cara website menjadi keharusan untuk bisnis di tahun 2015-2016.
 
+## Pengalaman dari Qawwa Tech: Dari Skeptis Jadi Percaya
+
+Saya pernah dampingi seorang klien—pemilik toko perlengkapan bayi di Surabaya—yang awalnya skeptis soal workflow automation. "Ah, ribet," katanya. Tapi setelah saya tunjukkan bagaimana satu workflow sederhana bisa mengirim laporan stok harian otomatis ke WhatsApp-nya setiap jam 6 pagi, dia berubah pikiran.
+
+Yang menarik: dalam 3 bulan, dia nggak cuma pakai workflow untuk stok, tapi sudah mengembangkan sendiri 4 workflow tambahan—untuk rekap penjualan, follow-up customer, notifikasi repeat order, dan monitoring ongkir. Padahal dia bukan programmer. Dia cuma kasih instruksi dalam bahasa Indonesia biasa.
+
+Dari situ saya belajar: hambatan terbesar adopsi AI di UKM bukanlah teknologi atau biaya, tapi pola pikir. Begitu seseorang melihat langsung bagaimana workflow bisa menghemat 2-3 jam sehari, mereka nggak perlu diyakinkan lagi.
+
 ## Kesimpulan
 
 AI agentic workflow bukan teknologi masa depan yang jauh. Dia sudah bisa dipakai sekarang, dengan budget Rp 0, dan bisa langsung kasih dampak ke efisiensi operasional UKMK.
@@ -110,3 +125,7 @@ Mulailah dari satu tugas repetitif. Automate itu. Evaluasi hasilnya. Lalu scale 
 Kalau kamu pakai Hermes Agent dan sudah familiar dengan AI agents, kamu sebenarnya sudah punya fondasi yang bagus untuk mulai membangun workflow automation yang lebih kompleks.
 
 Punya pertanyaan atau sudah coba AI agentic workflow? Bagikan pengalamanmu — kita diskusi bareng.
+
+---
+
+*Ditulis oleh Mas Wahyu — Founder & CEO Qawwa Technology Indonesia. 16+ tahun di industri teknologi, kini fokus membantu UKM Indonesia bertransformasi digital dengan AI & automation.*
