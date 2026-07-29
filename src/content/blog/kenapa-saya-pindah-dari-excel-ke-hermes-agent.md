@@ -75,7 +75,7 @@ Setup awal butuh 2-3 jam. Tapi setelah jalan, expense tracking jadi **zero-frict
 
 ## 6 Bulan Pakai Hermes Agent: Hasilnya
 
-Sekarang Juli 2026. Saya udah 6 bulan full pakai Hermes Agent untuk expense tracking. Ini data real:
+Sekarang Juli 2026. 6 bulan full pakai Hermes Agent untuk expense tracking:
 
 ### Time Saved
 
@@ -100,9 +100,9 @@ Januari-Juni 2026, saya set budget Rp 15 juta/bulan untuk personal expense.
 
 **Kenapa?** Karena Hermes kirim alert real-time kalau spending mendekati budget. Behaviour change.
 
-### Spending Insights yang Gak Pernah Saya Sadari
+### Spending Insights
 
-Hermes Agent auto-generate spending report setiap akhir bulan. Beberapa insight yang shocking:
+Hermes Agent auto-generate spending report setiap akhir bulan. Beberapa insight:
 
 - **40% expense saya di "Food & Beverage"** — mostly kopi dan makan siang meeting. Saya gak sadar sampai lihat chart.
 - **Transport expense naik 60% setiap awal bulan** — karena jadwal meeting klien lebih padat week pertama.
@@ -165,7 +165,7 @@ Kalau kamu stuck dengan Excel dan pengen pindah ke automation — tunggu artikel
 
 ---
 
-*Ditulis oleh **Mas Wahyu** — Founder & CEO Qawwa Technology Indonesia. 16+ tahun di industri teknologi, kini fokus membantu UKM Indonesia bertransformasi digital dengan AI & automation. Data expense tracking di artikel ini real dari personal usage Januari-Juni 2026.*
+*Ditulis oleh **Mas Wahyu** — Founder & CEO Qawwa Technology Indonesia. 16+ tahun di industri teknologi, kini fokus membantu UKM Indonesia bertransformasi digital dengan AI & automation.*
 
 *Artikel ini pertama kali dipublikasikan: 29 Juli 2026.*
 
